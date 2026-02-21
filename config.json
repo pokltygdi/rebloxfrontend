@@ -1,0 +1,22 @@
+{
+  "serverRuntimeConfig": {
+    "backend": {
+      "authorization": "Bearer mock-server-token-12345",
+      "authorizationHeader": "authorization"
+    }
+  },
+  "publicRuntimeConfig": {
+    "backend": {
+      "apiFormat": "http://localhost:8080{1}",
+      "apiSite": "",
+      "baseUrl": "http://localhost:8080",
+      "proxyEnabled": false,
+      "flags": {
+        "useSignalCoreForRealTimeChat": false,
+        "enableWebSockets": false,
+        "useRedisCache": false,
+        "maintenanceMode": false
+      }
+    }
+  }
+}
